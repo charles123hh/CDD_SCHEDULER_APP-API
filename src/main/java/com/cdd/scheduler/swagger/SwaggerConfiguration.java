@@ -17,7 +17,7 @@ public class SwaggerConfiguration  {
     public Docket api() { 
         return new Docket(DocumentationType.SWAGGER_2)  
           .select()                                  
-          .apis(RequestHandlerSelectors.basePackage("com.mbtc_empr_app.api"))              
+          .apis(RequestHandlerSelectors.basePackage("com.cdd.scheduler"))              
           .paths(PathSelectors.any())                          
           .build();                                           
     }
